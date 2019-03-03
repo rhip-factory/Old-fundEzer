@@ -1,0 +1,611 @@
+	<!DOCTYPE html>
+	<html lang="en-UK" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Author Meta -->
+		<meta name="author" content="Fundezer">
+		<!-- Meta Description -->
+		<meta name="description" content="Fundezer">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="Fundezer medical crowd funding app">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Fundezer Medical crowd funding app</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/nice-select.css">					
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+			<style type="text/css">
+				.tags-link a {
+				  color:white !important;
+				  font-size: 18px !important;
+				  font-weight: 450;
+				}
+
+				.post-img-icon{
+					height:68.993px;
+					width: 108.993px;
+				}
+				.item:hover{
+					cursor:move;
+				}
+			  .active-btn{
+			    background: #73f !important;
+			  }
+			  .toggle-filter{
+			    cursor: pointer !important
+			  }	
+				.more{
+				  position: fixed;
+				  top:0px;
+				  left: 0px;
+				  width: 100%;
+				  height: 100%;
+				  display: -webkit-box;
+				  display: -webkit-flex;
+				  display: -moz-box;
+				  display: -ms-flexbox;
+				  display: flex;
+				  align-items: center;
+				  justify-content: center;
+				  flex-wrap: wrap;
+				  background:rgba(255,255,255,.8);
+				  visibility: hidden;
+				  z-index: 1000;
+				  overflow-y: scroll;
+				}
+				.more .more-expand{
+				  background:white;
+				  border-radius: 6px;
+				  min-height: 50vh;
+				  width:1100px;
+				  max-width: 95%;
+				  box-shadow:0px 0px 20px 0px grey;
+				}
+				.more-expand-header .fa-close{
+				  float:right;
+				  margin:-30px 14px 0px 0px;
+				  font-size: 18px;
+				  cursor: pointer;
+				}
+				.more-expand-body{
+				  padding:20px 5%;
+
+				}
+				.more-expand-header{
+				  box-shadow:0px 0px 20px 0px grey;
+				  padding:10px 2%;
+				}
+
+				.more-expand-header h3{
+				  margin-top: 20px
+				}
+				@media(max-width:991px){
+				  .more{
+				    z-index: 10000;
+				  }
+				  .logged-by{
+				    display: none;
+				  }
+				}
+				.logged-by{
+				  font-size: 13px !important
+				}
+				  .form-control{
+				    margin:3% 1%;
+				    height:50px;
+				    background:transparent !important;
+				  }
+				  .form-control:hover{
+				    border-bottom: 2px solid lightgrey !important;
+				   }
+				  .form-control:focus{
+				    outline: 2px solid #B97CF5 !important;
+				    box-shadow: 1px -1px 20px 1px grey !important;
+				    border: 2px solid #B97CF5 !important;
+				  }
+				  .textarea{
+				  	height: 150px;
+				  	color:grey;
+				  	border:0px solid grey;
+				  	border-bottom:2px solid grey;
+				  }
+				    .login-parent .more-expand{
+				    width:600px !important;
+				    border-radius: 20px;
+				  }
+
+				  .login-parent .more-expand-header{
+				    border-top-left-radius: 20px;
+				    border-top-right-radius: 20px;
+				  }
+				  .login-form input{
+				    margin:7% 1%;
+				    height:50px;
+				    background:transparent !important;
+				  }
+			</style>
+			<link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+			<link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
+			<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
+			<link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
+			<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
+			<link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
+			<link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
+			<link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
+			<link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
+			<link rel="apple-touch-icon" sizes="256x256" href="img/icons/apple-icon-180x180.png">
+			<link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
+			<link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+			<link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
+			<link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+			<link rel="manifest" href="img/icons/manifest.json">
+			<meta name="msapplication-TileColor" content="#ffffff">
+			<meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
+			<meta name="theme-color" content="#420562">			
+		</head>
+		<body>
+			<div class="more" id="preloader" style="visibility: visible;background: rgba(255,255,255,.99);">
+				
+<svg width="200px"  height="200px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-ripple" style="background: none;"><circle cx="50" cy="50" r="19.1105" fill="none" ng-attr-stroke="{{config.c1}}" ng-attr-stroke-width="{{config.width}}" stroke="#a976c3" stroke-width="2"><animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="1" keySplines="0 0.2 0.8 1" begin="-0.5s" repeatCount="indefinite"></animate><animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="1" keySplines="0.2 0 0.8 1" begin="-0.5s" repeatCount="indefinite"></animate></circle><circle cx="50" cy="50" r="36.9101" fill="none" ng-attr-stroke="{{config.c2}}" ng-attr-stroke-width="{{config.width}}" stroke="#420562" stroke-width="2"><animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="1" keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite"></animate><animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="1" keySplines="0.2 0 0.8 1" begin="0s" repeatCount="indefinite"></animate></circle></svg>
+			</div>
+			  <header id="header" id="home">
+			    <div class="container">
+			    	<div class="row align-items-center justify-content-between d-flex">
+				      <div id="logo">
+				        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+				      </div>
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li class="menu-active"><a href="index.html">Home</a></li>
+				          <li><a href="about-us.html">About Us</a></li>
+				          <li><a href="category.html">Category</a></li>
+				          <li><a href="dashboard.html">Dashboard</a></li>
+				          <li><a href="contact.html">Contact</a></li>
+				          <li><a class="ticker-btn get-fund" href="#">Register for funding</a></li>
+				          <li><a class="ticker-btn loginTrigger" id="login" href="#">Login</a></li>				          				          
+				        </ul>
+				      </nav><!-- #nav-menu-container -->		    		
+			    	</div>
+			    </div>
+			  </header><!-- #header -->
+
+			<!-- start banner Area -->
+			<section class="banner-area relative" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+							<h1 class="text-white">
+								About Us				
+							</h1>	
+							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about-us.html"> About Us</a></p>
+						</div>											
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->	
+				
+			<!-- Start service Area -->
+			<section class="service-area section-gap" id="service">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="col-md-8 pb-40 header-text">
+							<h1>Why Choose Us</h1>
+							<p>
+								Who are in extremely love with eco friendly system.
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-6">
+							<div class="single-service">
+								<h4><span class="lnr lnr-user"></span>Expert Technicians</h4>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-service">
+								<h4><span class="lnr lnr-license"></span>Professional Service</h4>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>								
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-service">
+								<h4><span class="lnr lnr-phone"></span>Great Support</h4>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>								
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-service">
+								<h4><span class="lnr lnr-rocket"></span>Technical Skills</h4>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>				
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-service">
+								<h4><span class="lnr lnr-diamond"></span>Highly Recomended</h4>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>								
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-service">
+								<h4><span class="lnr lnr-bubble"></span>Positive Reviews</h4>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>									
+							</div>
+						</div>						
+					</div>
+				</div>	
+			</section>
+			<!-- End service Area -->						
+
+			<!-- Start feature Area -->
+			<section class="feature-area">
+				<div class="container-fluid">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-lg-3 feat-img no-padding">
+							<img class="img-fluid" src="img/pages/f1.jpg" alt="">
+						</div>
+						<div class="col-lg-3 no-padding feat-txt">
+							<h6 class="text-uppercase text-white">Basic & Common Repairs</h6>
+							<h1>Who we are</h1>
+							<p>
+								Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
+							</p>
+						</div>
+						<div class="col-lg-3 feat-img no-padding">
+							<img class="img-fluid" src="img/pages/f2.jpg" alt="">							
+						</div>
+						<div class="col-lg-3 no-padding feat-txt">
+							<h6 class="text-uppercase text-white">Basic & Common Repairs</h6>
+							<h1>What we do</h1>
+							<p>
+								Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
+							</p>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End feature Area -->
+
+			<!-- Start team Area -->
+			<section class="team-area section-gap" id="team">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Experienced Mentor Team</h1>
+								<p>Who are in extremely love with eco friendly system.</p>
+							</div>
+						</div>
+					</div>						
+					<div class="row justify-content-center d-flex align-items-center">
+						<div class="col-md-3 single-team">
+						    <div class="thumb">
+						        <img class="img-fluid" src="img/pages/t1.jpg" alt="">
+						        <div class="align-items-center justify-content-center d-flex">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+						        </div>
+						    </div>
+						    <div class="meta-text mt-30 text-center">
+							    <h4>Ethel Davis</h4>
+							    <p>Managing Director (Sales)</p>									    	
+						    </div>
+						</div>
+						<div class="col-md-3 single-team">
+						    <div class="thumb">
+						        <img class="img-fluid" src="img/pages/t2.jpg" alt="">
+						        <div class="align-items-center justify-content-center d-flex">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+						        </div>
+						    </div>
+						    <div class="meta-text mt-30 text-center">
+							    <h4>Rodney Cooper</h4>
+							    <p>Creative Art Director (Project)</p>			    	
+						    </div>
+						</div>	
+						<div class="col-md-3 single-team">
+						    <div class="thumb">
+						        <img class="img-fluid" src="img/pages/t3.jpg" alt="">
+						        <div class="align-items-center justify-content-center d-flex">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+						        </div>
+						    </div>
+						    <div class="meta-text mt-30 text-center">
+							    <h4>Dora Walker</h4>
+							    <p>Senior Core Developer</p>			    	
+						    </div>
+						</div>	
+						<div class="col-md-3 single-team">
+						    <div class="thumb">
+						        <img class="img-fluid" src="img/pages/t4.jpg" alt="">
+						        <div class="align-items-center justify-content-center d-flex">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+						        </div>
+						    </div>
+						    <div class="meta-text mt-30 text-center">
+							    <h4>Lena Keller</h4>
+							    <p>Creative Content Developer</p>			    	
+						    </div>
+						</div>																									
+				
+					</div>
+				</div>	
+			</section>
+			<!-- End team Area -->			
+
+
+			<!-- Start callto-action Area -->
+			<section class="callto-action-area section-gap">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content col-lg-9">
+							<div class="title text-center">
+								<h1 class="mb-10 text-white">Join us today without any hesitation</h1>
+								<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+								<a class="primary-btn" href="#">I am a Candidate</a>
+								<a class="primary-btn" href="#">We are an Employer</a>
+							</div>
+						</div>
+					</div>	
+				</div>	
+			</section>
+			<!-- End calto-action Area -->
+
+			<!-- Start testimonial Area -->
+			<section class="testimonial-area section-gap" id="review">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Testimonial from our Clients</h1>
+								<p>Who are in extremely love with eco friendly system.</p>
+							</div>
+						</div>
+					</div>						
+					<div class="row">
+						<div class="active-review-carusel">
+							<div class="single-review">
+								<img src="img/r1.png" alt="">
+								<div class="title d-flex flex-row">
+									<h4>lorem ipusm</h4>
+									<div class="star">
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>								
+									</div>
+								</div>
+								<p>
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+								</p>
+							</div>	
+							<div class="single-review">
+								<img src="img/r2.png" alt="">
+								<div class="title d-flex flex-row">
+									<h4>lorem ipusm</h4>
+									<div class="star">
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>								
+									</div>
+								</div>
+								<p>
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+								</p>
+							</div>	
+							<div class="single-review">
+								<img src="img/r1.png" alt="">
+								<div class="title d-flex flex-row">
+									<h4>lorem ipusm</h4>
+									<div class="star">
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>								
+									</div>
+								</div>
+								<p>
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+								</p>
+							</div>	
+							<div class="single-review">
+								<img src="img/r2.png" alt="">
+								<div class="title d-flex flex-row">
+									<h4>lorem ipusm</h4>
+									<div class="star">
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>								
+									</div>
+								</div>
+								<p>
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+								</p>
+							</div>								
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End testimonial Area -->
+			
+		
+			<!-- start footer Area -->		
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row footer-bottom d-flex justify-content-between">
+
+						<div class="col-lg-4 col-sm-12 footer-social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- End footer Area -->		
+			<div class="more animated signupmore">			
+				<div class="more-expand">
+					<div class="more-expand-header">
+						<h3> <span class="fa fa-signin"></span> Join Fundezer to raise money <span class="logged-by">For Medical patients in need of support</span></h3 >
+						<span class="fa fa-close close"></span>
+						<br>
+					</div>						
+					<div class="more-body container">
+						<form id="form">
+							<input class="form-control" type="text" required="" name="name" placeholder="Input your full name...">
+							<input class="form-control" type="email" name="email" placeholder="Email address">
+						
+							<div class="row">
+								<div class="col-sm-6">
+									<input class="form-control" type="text" name="email" placeholder="health Issue ( eg:cancer )">
+								</div>
+								<div class="col-sm-6">
+									<input class="form-control" type="number" name="email" placeholder="Amount Needed For Treatment in naira">
+								</div>
+								<div class="col-sm-7">
+									<input class="form-control" type="text" name="email" placeholder="name Of Hospital checked In (if any)">
+								</div>
+								<div class="col-sm-5">
+									<input class="form-control" type="password" name="email" placeholder="Choose a pawwsord">
+								</div>
+							</div>
+							<textarea class="form-control textarea" minlength="100" required="" placeholder="Write a brief and precise description of issue you are facing in straight forward terms."></textarea>
+							<span> <input type="checkbox" required="" name=""> By filling this form and submitting you agree to have read our terms and conditions</span>
+							<div class="text-right" style="padding:0px 20px 30px 0px">
+								<button type="submit"  class="btn btn-primary "> Proceed </button>
+							</div>
+
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<!-- Login form starts here -->
+			<section class="login-parent more animated">
+				<div class="more-expand">
+					<div class="more-expand-header">
+						<h3 class="text-center" style="font-weight: lighter;">Login your Fund Ezer account</h3 >
+						<span class="fa fa-close login-close"></span>
+					</div>
+					<div class="more-expand-body text-center">
+						<img src="img/quote.png" alt="Login"> 
+						<div class="login-form">
+							<form>
+								<input type="text" name="vName" class="form-control" required="" placeholder="Username / email address">
+								<input type="password" name="password" class="form-control" required="" placeholder="Input your Password">
+
+								<div class="text-right">
+									<button class="btn btn-default" type="submit"><span><i class="fa fa-sign-in fa-lg" style="margin-right: 15px"></i> Login</span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>			
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+			<script src="js/owl.carousel.min.js"></script>			
+			<script src="js/jquery.sticky.js"></script>
+			<script src="js/jquery.nice-select.min.js"></script>			
+			<script src="js/parallax.min.js"></script>			
+			<script src="js/main.js"></script>
+			<script type="text/javascript">
+				$('.get-fund').click(function(event){
+					event.preventDefault();
+					$('.signupmore').addClass('slideInLeft')
+					$('.signupmore').css('visibility' , 'visible')
+					$('.signupmore').removeClass('slideOutRight')
+				});					
+	
+
+				$('.close').each(function(){
+					$(this).click(function(){
+						
+						$('.signupmore').addClass('slideOutRight')
+						setTimeout(function(){
+							$('.signupmore').css('visibility' , 'hidden')
+							$('.signupmore').removeClass('slideInLeft')
+						},800)
+					})
+				})			
+				$('.loginTrigger').click(function(e){
+					e.preventDefault();
+					$('.login-parent').addClass('slideInUp')
+					$('.login-parent').css('visibility' , 'visible')
+					$('.login-parent').removeClass('slideOutDown')			
+				})
+
+				$('.login-close').click(function(){
+					$('.login-parent').addClass('slideOutDown')
+					setTimeout(function(){
+						$('.login-parent').css('visibility' , 'hidden')
+						$('.login-parent').removeClass('slideInUp')
+					},800)
+				})		
+			    if('serviceWorker' in navigator){
+			        if (navigator.serviceWorker.controller) {
+			          console.log('[PWA Builder] active service worker found, no need to register')
+			        } else {
+			          //Register the ServiceWorker
+			          navigator.serviceWorker.register('./newsw.js', {
+			            scope: './'
+			          }).then(function(reg) {
+			            console.log('Service worker has been registered for scope:'+ reg.scope);
+			          });
+			        }
+
+			    }
+			    else{
+			        console.log('cannot register service worker because site is not running on a secure connection (https)')
+			    }
+
+			</script>
+		</body>
+	</html>
+
+
+
