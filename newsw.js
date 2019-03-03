@@ -2,7 +2,7 @@
 
 //Install stage sets up the index page (home page) in the cache and opens a new cache
 self.addEventListener('install', function(event) {
-  var indexPage = new Request('/fundezer/index');
+  var indexPage = new Request('/fundEzer/index');
   event.waitUntil(
     fetch(indexPage).then(function(response) {
       return caches.open('pwabuilder-offline').then(function(cache) {

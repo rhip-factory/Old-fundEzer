@@ -1,6 +1,6 @@
 RewriteEngine on 
 #RewriteCond %{SERVER_PORT} 80 
-#RewriteRule ^(.*)$ https://infopat.github.io/$1 [R,L]
+#RewriteRule ^(.*)$ https://rhip-factory.github.io/$1 [R,L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]

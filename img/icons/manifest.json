@@ -5,7 +5,7 @@
  "background_color": "#fff",
  "orientation": "portrait",
  "display": "standalone",
- "start_url": "/fundezer/index",
+ "start_url": "/fundEzer/index",
  "icons": [
   {
    "src": "android-icon-36x36.png",
